@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestHelper</string>
+    <string name="title_qr">QR</string>
+    <string name="title_home">Home</string>
+    <string name="device_info_title">Информация об устройстве</string>
+    <string name="qr_help_title">QR</string>
+</resources>

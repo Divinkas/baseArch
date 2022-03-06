@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeScreen">
+
+    <fragment
+        android:id="@+id/homeScreen"
+        android:name="com.yatsenko.testhelper.ui.home.HomeFragment"
+        android:label="home screen"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/toQrScreen"
+            app:destination="@id/qrScreen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/qrScreen"
+        android:name="com.yatsenko.testhelper.ui.qr.QrFragment"
+        android:label="QR"
+        tools:layout="@layout/fragment_home" />
+</navigation>
